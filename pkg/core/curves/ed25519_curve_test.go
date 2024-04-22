@@ -15,7 +15,7 @@ import (
 	ed "filippo.io/edwards25519"
 	"github.com/stretchr/testify/require"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 )
 
 func TestScalarEd25519Random(t *testing.T) {

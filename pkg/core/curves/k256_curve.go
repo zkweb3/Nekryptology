@@ -15,7 +15,7 @@ import (
 
 	"github.com/btcsuite/btcd/btcec"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves/native"
 	secp256k1 "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves/native/k256"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves/native/k256/fp"

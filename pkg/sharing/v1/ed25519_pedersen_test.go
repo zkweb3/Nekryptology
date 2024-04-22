@@ -14,7 +14,7 @@ import (
 	"filippo.io/edwards25519"
 	"github.com/stretchr/testify/require"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	core "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves"
 )
 

@@ -17,7 +17,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/crypto/sha3"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/ot/base/simplest"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/ot/extension/kos"

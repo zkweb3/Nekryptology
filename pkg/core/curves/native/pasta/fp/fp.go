@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 )
 
 type Fp fiat_pasta_fp_montgomery_domain_field_element

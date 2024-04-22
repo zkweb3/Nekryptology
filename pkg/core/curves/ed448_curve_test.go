@@ -16,7 +16,7 @@ import (
 	"github.com/cloudflare/circl/ecc/goldilocks"
 	"github.com/stretchr/testify/require"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 )
 
 func TestScalarEd448Random(t *testing.T) {

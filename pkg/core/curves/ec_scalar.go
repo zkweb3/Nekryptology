@@ -18,7 +18,7 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/bwesterb/go-ristretto"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves/native/bls12381"
 )

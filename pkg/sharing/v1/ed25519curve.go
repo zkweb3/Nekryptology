@@ -13,7 +13,7 @@ import (
 
 	ed "filippo.io/edwards25519"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves"
 )
 

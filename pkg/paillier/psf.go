@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	crypto "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves"
 )

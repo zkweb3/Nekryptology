@@ -11,7 +11,7 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves"
 	v1 "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/sharing/v1"
 )

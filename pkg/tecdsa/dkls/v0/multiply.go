@@ -12,7 +12,7 @@ import (
 	"io"
 	"math/big"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 )
 
 // this implements the _coalesced_ multiplication, in which Alice and Bob perform 2 "parallel" multiplication protocols

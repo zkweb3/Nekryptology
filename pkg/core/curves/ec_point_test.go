@@ -15,7 +15,7 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/stretchr/testify/require"
 
-	tt "source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	tt "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core"
 )
 

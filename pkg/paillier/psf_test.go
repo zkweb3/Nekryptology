@@ -15,7 +15,7 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/stretchr/testify/require"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	crypto "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core"
 	curves2 "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves"
 )

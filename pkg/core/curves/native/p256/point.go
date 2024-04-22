@@ -3,7 +3,7 @@ package p256
 import (
 	"sync"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves/native"
 	"source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/core/curves/native/p256/fp"
 )

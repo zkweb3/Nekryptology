@@ -9,7 +9,7 @@ package gennaro
 import (
 	"fmt"
 
-	"source.quilibrium.com/quilibrium/monorepo/nekryptology/internal"
+	internal "source.quilibrium.com/quilibrium/monorepo/nekryptology/utils"
 	v1 "source.quilibrium.com/quilibrium/monorepo/nekryptology/pkg/sharing/v1"
 )
 
