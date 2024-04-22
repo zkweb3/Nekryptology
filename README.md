@@ -1,5 +1,5 @@
 # Nekryptology
-Coinbase's advanced cryptography library, brought back from the dead and enhanced
+Coinbase's advanced cryptography library, brought back from the dead and enhanced, forked from [kryptology](https://github.com/coinbase/kryptology) and [ceremonyclient/nekryptology](https://github.com/QuilibriumNetwork/ceremonyclient/tree/main/nekryptology)
 
 ## Differences from Kryptology
 - Schnorr proofs are patched to use hash-to-curve, fixes a bug where depending on the curve there may be a small to very large percentage of proofs that are invalid encodings
