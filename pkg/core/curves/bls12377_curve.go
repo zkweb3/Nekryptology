@@ -4,7 +4,11 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-// NOTE that the bls curves are NOT constant time. There is an open issue to address it: https://source.quilibrium.com/quilibrium/monorepo/nekryptology/issues/233
+// NOTE that the bls curves are NOT constant time. There is an open issue to address it: https://github.com/Consensys/gnark-crypto/issues/404
+
+// kryptology has been archived, replacing with a vendored copy which has been modified:
+// HashToCurveG1Svdw -> HashToG1
+// HashToCurveG2Svdw -> HashToG2
 
 package curves
 
@@ -349,7 +353,7 @@ func (p *PointBls12377G1) Random(reader io.Reader) Point {
 
 func (p *PointBls12377G1) Hash(bytes []byte) Point {
 	var domain = []byte("BLS12377G1_XMD:SHA-256_SVDW_RO_")
-	pt, err := bls12377.HashToCurveG1Svdw(bytes, domain)
+	pt, err := bls12377.HashToG1(bytes, domain)
 	if err != nil {
 		return nil
 	}
@@ -623,7 +627,7 @@ func (p *PointBls12377G2) Random(reader io.Reader) Point {
 
 func (p *PointBls12377G2) Hash(bytes []byte) Point {
 	var domain = []byte("BLS12377G2_XMD:SHA-256_SVDW_RO_")
-	pt, err := bls12377.HashToCurveG2Svdw(bytes, domain)
+	pt, err := bls12377.HashToG2(bytes, domain)
 	if err != nil {
 		return nil
 	}
