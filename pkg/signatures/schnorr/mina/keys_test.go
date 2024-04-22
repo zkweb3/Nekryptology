@@ -7,7 +7,6 @@
 package mina
 
 import (
-	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -20,8 +19,6 @@ func TestNewKeys(t *testing.T) {
 	require.NoError(t, err)
 	require.NotNil(t, sk)
 	require.NotNil(t, pk)
-	fmt.Println("pk", pk.GenerateAddress())
-	fmt.Println("sk", sk)
 	require.False(t, sk.value.IsZero())
 	require.False(t, pk.value.IsIdentity())
 }
